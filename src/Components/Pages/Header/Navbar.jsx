@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router';
-import heroImg from '../../../assets/logo.png';
+import logoImg from '../../../../public/assets/logo.png';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </div>
 
                 <Link className='flex items-center gap-1' to={'/'}>
-                    <img className='h-10' src={heroImg} alt="" />
+                    <img className='h-10' src={logoImg} alt="" />
                     <p className="font-bold text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</p>
                 </Link>
 

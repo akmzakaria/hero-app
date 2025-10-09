@@ -1,6 +1,6 @@
 [
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "Hero Chat",
     "companyName": "Hero.IO Labs",
     "id": 1,
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "Hero Music",
     "companyName": "Hero.IO Studios",
     "id": 2,
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "Hero Games",
     "companyName": "Hero.IO Entertainment",
     "id": 3,
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "Hero Browser",
     "companyName": "Hero.IO Labs",
     "id": 4,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "Hero Store",
     "companyName": "Hero.IO",
     "id": 5,
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "Hero News",
     "companyName": "Hero.IO Media",
     "id": 6,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "Hero Fitness",
     "companyName": "Hero.IO Health",
     "id": 7,
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "Hero Gallery",
     "companyName": "Hero.IO Design",
     "id": 8,

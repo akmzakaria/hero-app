@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from "../../../assets/hero.png"
+import heroImg from "../../../../public/assets/hero.png"
 import { Link, useLoaderData } from 'react-router';
 
 const Home = () => {

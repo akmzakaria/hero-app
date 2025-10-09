@@ -1,6 +1,6 @@
 [
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "Hero Chat",
     "companyName": "Hero.IO Labs",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "Hero Music",
     "companyName": "Hero.IO Studios",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "Hero Games",
     "companyName": "Hero.IO Entertainment",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "Hero Browser",
     "companyName": "Hero.IO Labs",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "Hero Store",
     "companyName": "Hero.IO",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "Hero News",
     "companyName": "Hero.IO Media",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "Hero Fitness",
     "companyName": "Hero.IO Health",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "Hero Gallery",
     "companyName": "Hero.IO Design",
     "id": 8,
@@ -145,7 +145,7 @@
   },
 
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "CloudSync",
     "companyName": "Hero.IO Labs",
     "id": 9,
@@ -163,7 +163,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "StreamCast",
     "companyName": "Hero.IO Studios",
     "id": 10,
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "MindMap Pro",
     "companyName": "Hero.IO Design",
     "id": 11,
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "TaskFlow",
     "companyName": "Hero.IO Labs",
     "id": 12,
@@ -217,7 +217,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "ShopEase",
     "companyName": "Hero.IO Commerce",
     "id": 13,
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "TravelMate",
     "companyName": "Hero.IO Travel",
     "id": 14,
@@ -253,7 +253,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "LearnHub",
     "companyName": "Hero.IO Education",
     "id": 15,
@@ -271,7 +271,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "CodeCraft",
     "companyName": "Hero.IO Dev",
     "id": 16,
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "PhotoWave",
     "companyName": "Hero.IO Design",
     "id": 17,
@@ -307,7 +307,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "DocuLink",
     "companyName": "Hero.IO Productivity",
     "id": 18,
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "FitTrack",
     "companyName": "Hero.IO Health",
     "id": 19,
@@ -343,7 +343,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "MusicFlow",
     "companyName": "Hero.IO Studios",
     "id": 20,
