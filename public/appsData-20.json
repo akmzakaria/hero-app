@@ -1,0 +1,363 @@
+[
+  {
+    "image": "../src/assets/demo-app (1).webp",
+    "title": "Hero Chat",
+    "companyName": "Hero.IO Labs",
+    "id": 1,
+    "description": "Hero Chat is an intelligent and secure messaging platform built for the next generation of communication. Stay connected with friends, family, and AI companions through instant messages, voice notes, and high-quality video calls. The app features real-time translation, smart suggestions, and message scheduling to make every conversation smoother and more meaningful. Whether chatting one-on-one or managing group discussions, Hero Chat ensures fast performance, minimal data usage, and top-tier privacy protection.",
+    "size": 54,
+    "reviews": 12345,
+    "ratingAvg": 4.6,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 9325 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (2).webp",
+    "title": "Hero Music",
+    "companyName": "Hero.IO Studios",
+    "id": 2,
+    "description": "Hero Music transforms the way you experience sound. Explore millions of tracks from global artists, curated playlists, and AI-generated mixes that match your vibe. The app offers high-quality audio streaming, offline downloads, and smart recommendations that learn your listening habits. With a clean and modern interface, sleep timers, lyrics display, and customizable equalizers, Hero Music is the ultimate app for music lovers who want both convenience and crystal-clear sound.",
+    "size": 68,
+    "reviews": 8421,
+    "ratingAvg": 4.3,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4701 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (3).webp",
+    "title": "Hero Games",
+    "companyName": "Hero.IO Entertainment",
+    "id": 3,
+    "description": "Hero Games is your personal gaming universe. Dive into a vast collection of action, puzzle, racing, and adventure games all in one place. Enjoy quick installs, secure downloads, and personalized recommendations based on your favorite genres. Compete in online tournaments, climb leaderboards, and unlock exclusive rewards for completing challenges. With powerful performance optimization and low-latency gameplay, Hero Games ensures smooth experiences for both casual and hardcore gamers.",
+    "size": 92,
+    "reviews": 21500,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 16210 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (4).webp",
+    "title": "Hero Browser",
+    "companyName": "Hero.IO Labs",
+    "id": 4,
+    "description": "Hero Browser is a lightning-fast and privacy-focused web browser designed for those who value both performance and security. It comes equipped with built-in ad blocking, tracker prevention, and customizable search modes. Browse smoothly even with multiple tabs, switch to dark mode for comfort, and use the private window feature to keep your data safe. Hero Browser’s AI-driven content suggestions and minimalist interface make it a perfect blend of power and simplicity.",
+    "size": 45,
+    "reviews": 10234,
+    "ratingAvg": 4.4,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1 star", "count": 540 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 5874 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (5).webp",
+    "title": "Hero Store",
+    "companyName": "Hero.IO",
+    "id": 5,
+    "description": "Hero Store is the heart of the Hero.IO ecosystem — an advanced app marketplace that brings you thousands of verified apps in one trusted platform. Discover trending tools, games, and utilities from developers worldwide, with detailed insights and user reviews to guide your choices. Enjoy fast, secure downloads and automatic updates without any clutter or ads. Hero Store also includes personalized recommendations, category sorting, and an elegant interface for a next-level app discovery experience.",
+    "size": 80,
+    "reviews": 15678,
+    "ratingAvg": 4.7,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 11808 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (6).webp",
+    "title": "Hero News",
+    "companyName": "Hero.IO Media",
+    "id": 6,
+    "description": "Hero News keeps you informed and inspired with real-time coverage from trusted publishers and independent creators. Follow your favorite topics — from tech and finance to entertainment and sports — and get tailored updates delivered straight to your feed. With its clean layout, offline reading mode, and breaking news notifications, Hero News ensures you never miss what matters most. Built-in comment sections and AI summaries make staying updated more engaging than ever.",
+    "size": 40,
+    "reviews": 6400,
+    "ratingAvg": 4.2,
+    "downloads": "601K",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 670 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (1).webp",
+    "title": "Hero Fitness",
+    "companyName": "Hero.IO Health",
+    "id": 7,
+    "description": "Hero Fitness is your personal trainer and health coach in one app. It provides guided workout plans, step tracking, calorie monitoring, and real-time progress analytics. Designed for all fitness levels, Hero Fitness uses AI to adjust routines based on your goals and performance. Track your heart rate, set reminders, and sync with your smartwatch to stay motivated every day. Its gamified achievements and progress sharing features help you build consistency and celebrate milestones.",
+    "size": 72,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": "109K",
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 5140 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (2).webp",
+    "title": "Hero Gallery",
+    "companyName": "Hero.IO Design",
+    "id": 8,
+    "description": "Hero Gallery makes managing your photos effortless and enjoyable. Automatically organize your images with AI-powered tagging and face recognition. Edit photos using professional-grade filters, crop tools, and one-touch enhancements. With integrated cloud backup, you’ll never lose your memories again. Share directly to social media or create digital albums with a sleek, minimal interface. Hero Gallery combines beauty and intelligence to keep your photo collection safe, creative, and perfectly sorted.",
+    "size": 64,
+    "reviews": 7200,
+    "ratingAvg": 4.4,
+    "downloads": "904K",
+    "ratings": [
+      { "name": "1 star", "count": 390 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3760 }
+    ]
+  },
+
+  {
+    "image": "../src/assets/demo-app (1).webp",
+    "title": "CloudSync",
+    "companyName": "Hero.IO Labs",
+    "id": 9,
+    "description": "CloudSync is a seamless cloud storage and backup solution. Sync your files across devices instantly, share securely, and manage your data with powerful tools designed for speed and reliability.",
+    "size": 58,
+    "reviews": 6800,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 145 },
+      { "name": "2 star", "count": 186 },
+      { "name": "3 star", "count": 354 },
+      { "name": "4 star", "count": 890 },
+      { "name": "5 star", "count": 2180 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (2).webp",
+    "title": "StreamCast",
+    "companyName": "Hero.IO Studios",
+    "id": 10,
+    "description": "StreamCast offers high-quality live streaming and on-demand video services. Discover trending content, stream without interruptions, and enjoy an intuitive interface optimized for any device.",
+    "size": 62,
+    "reviews": 7200,
+    "ratingAvg": 4.3,
+    "downloads": 1050000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (3).webp",
+    "title": "MindMap Pro",
+    "companyName": "Hero.IO Design",
+    "id": 11,
+    "description": "MindMap Pro is a creative planning tool. Easily design and share mind maps for projects, ideas, and study plans. Enjoy an intuitive interface with collaborative tools.",
+    "size": 55,
+    "reviews": 6100,
+    "ratingAvg": 4.4,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 3730 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (5).webp",
+    "title": "TaskFlow",
+    "companyName": "Hero.IO Labs",
+    "id": 12,
+    "description": "TaskFlow is a smart task management app that organizes your day efficiently. Set reminders, create task lists, and track progress with a sleek interface and smart analytics.",
+    "size": 60,
+    "reviews": 7500,
+    "ratingAvg": 4.2,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3830 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (4).webp",
+    "title": "ShopEase",
+    "companyName": "Hero.IO Commerce",
+    "id": 13,
+    "description": "ShopEase brings the world’s stores to your fingertips. Browse, compare, and shop securely with instant checkout and personalized recommendations.",
+    "size": 64,
+    "reviews": 8200,
+    "ratingAvg": 4.6,
+    "downloads": 1150000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 410 },
+      { "name": "4 star", "count": 920 },
+      { "name": "5 star", "count": 4470 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (5).webp",
+    "title": "TravelMate",
+    "companyName": "Hero.IO Travel",
+    "id": 14,
+    "description": "TravelMate is your intelligent travel companion. Plan trips, book hotels, explore local attractions, and receive live travel updates all from one app.",
+    "size": 68,
+    "reviews": 9000,
+    "ratingAvg": 4.7,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 940 },
+      { "name": "5 star", "count": 4230 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (1).webp",
+    "title": "LearnHub",
+    "companyName": "Hero.IO Education",
+    "id": 15,
+    "description": "LearnHub offers interactive courses and lessons. From beginner to advanced levels, boost your skills with immersive content and personalized learning paths.",
+    "size": 61,
+    "reviews": 7800,
+    "ratingAvg": 4.3,
+    "downloads": 1020000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 390 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 4240 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (2).webp",
+    "title": "CodeCraft",
+    "companyName": "Hero.IO Dev",
+    "id": 16,
+    "description": "CodeCraft is an integrated development environment for coding on-the-go. Edit, run, and test your code with powerful tools and smooth performance.",
+    "size": 70,
+    "reviews": 9500,
+    "ratingAvg": 4.5,
+    "downloads": 1220000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 410 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 4850 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (3).webp",
+    "title": "PhotoWave",
+    "companyName": "Hero.IO Design",
+    "id": 17,
+    "description": "PhotoWave is a creative photo editor with advanced tools and AI enhancements. Edit, organize, and share images with powerful filters and intuitive controls.",
+    "size": 63,
+    "reviews": 8000,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 390 },
+      { "name": "4 star", "count": 880 },
+      { "name": "5 star", "count": 4410 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (4).webp",
+    "title": "DocuLink",
+    "companyName": "Hero.IO Productivity",
+    "id": 18,
+    "description": "DocuLink streamlines your document workflow. Upload, share, and collaborate on documents securely with advanced tools for productivity and efficiency.",
+    "size": 66,
+    "reviews": 8600,
+    "ratingAvg": 4.3,
+    "downloads": 970000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 920 },
+      { "name": "5 star", "count": 3910 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (5).webp",
+    "title": "FitTrack",
+    "companyName": "Hero.IO Health",
+    "id": 19,
+    "description": "FitTrack helps you track your fitness goals effortlessly. Monitor workouts, calories, and progress with a clean and motivating interface.",
+    "size": 59,
+    "reviews": 7400,
+    "ratingAvg": 4.5,
+    "downloads": 930000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 3870 }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (6).webp",
+    "title": "MusicFlow",
+    "companyName": "Hero.IO Studios",
+    "id": 20,
+    "description": "MusicFlow is your personal music universe. Explore curated playlists, create your own, and enjoy high-quality streaming with intelligent recommendations.",
+    "size": 64,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 1080000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 4310 }
+    ]
+  }
+]
