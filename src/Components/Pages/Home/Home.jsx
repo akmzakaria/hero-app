@@ -10,7 +10,7 @@ const Home = () => {
     console.log(data)
 
     return (
-        <div className='bg-[#f5f5f5]'>
+        <div className='bg-[#f5f5f5] pt-8'>
             <div className='flex flex-col justify-center gap-10 max-w-[1200px] mx-auto'>
                 <div className='text-center flex flex-col gap-10'>
                     <h1 className='text-7xl font-bold text-[#001931]'>We Build <br /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>

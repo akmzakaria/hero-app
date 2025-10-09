@@ -1,17 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
-import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { addToStoredApp, getStoredApp } from '../../../Utility/addToInstallation';
 
 const AppDetails = () => {
 
+    const [installed, setInstalled] = useState(false);
+
     const data = useLoaderData();
-    console.log(data)
+    // console.log(data)
 
     const { id } = useParams()
-    console.log(id)
+    // console.log(id)
 
     const singleApp = data.find(app => app.id === Number(id));
-    console.log(singleApp)
+    // console.log(singleApp)
+
+    useEffect(() => {
+        const storedApps = getStoredApp();
+        if (storedApps.includes(singleApp.id)) {
+            setInstalled(true);
+        }
+    }, [singleApp.id]);
+
+    const handleInstall = (id) => {
+
+        addToStoredApp(id)
+        setInstalled(true);
+
+    }
 
     return (
         <div className='max-w-[1500px] mx-auto'>
@@ -44,7 +61,8 @@ const AppDetails = () => {
 
                     </div>
                     <div>
-                        <button className="btn bg-[#00d390] border-0 text-xl font-semiboldbold w-60 h-11">Install Now ({singleApp.size} MB)</button>
+                        {/* disable not working  */}
+                        <button disabled={installed} onClick={() => handleInstall(singleApp.id)} className="btn bg-[#00d390] border-0 text-xl font-semiboldbold w-60 h-11">{installed ? "Installed" : `Install Now (${singleApp.size} MB)`}</button>
                     </div>
                 </div>
             </div>
@@ -65,7 +83,10 @@ const AppDetails = () => {
                 <hr className="border-[#c4c9ce] mt-10" />
             </div>
 
-
+            <div className='p-15'>
+                <h1 className='text-2xl font-semibold mb-5'>Description</h1>
+                <p className='text-[#627382] text-xl'>{singleApp.description}</p>
+            </div>
 
         </div>
     );
