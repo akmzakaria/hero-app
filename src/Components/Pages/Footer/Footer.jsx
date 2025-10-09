@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-[#001931] text-[#A1A1AA]'>
-            <div className='flex md:flex-row flex-col md:justify-around text-center md:items-center max-w-[1400px] mx-auto gap-8 py-10'>
+            <div className='flex md:flex-row flex-col md:justify-around text-center max-w-[1400px] mx-auto gap-8 py-10'>
 
                 <div className='flex-2 flex-col'>
                     <h2 className='font-bold mb-3 text-white'>HERO.IO</h2>

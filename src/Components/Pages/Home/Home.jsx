@@ -1,6 +1,8 @@
 import React from 'react';
 import heroImg from "../../../../public/assets/hero.png"
 import { Link, useLoaderData } from 'react-router';
+import playStoreImg from '../../../../public/assets/play.png'
+import appleStoreImg from '../../../../public/assets/apple.png'
 
 const Home = () => {
 
@@ -15,9 +17,9 @@ const Home = () => {
                     <p className='text-[#627382] text-xl'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                     <div className='flex gap-5 justify-center'>
 
-                        <Link to='https://play.google.com' className='btn bg-[#f5f5f5] shadow text-[#001931] font-bold border-[#d2d2d2] text-xl h-14 w-50'><i className="fa-brands fa-google-play text-4xl"></i>Google Play</Link>
+                        <Link to='https://play.google.com' className='btn bg-[#f5f5f5] shadow text-[#001931] font-bold border-[#d2d2d2] text-xl h-14 w-50'><img src={playStoreImg} alt="" />Google Play</Link>
 
-                        <Link to='https://www.apple.com/app-store/' className='btn bg-[#f5f5f5] border-[#d2d2d2] shadow text-[#001931] font-bold text-xl h-14 w-50'><i className="fa-brands fa-app-store-ios text-4xl "></i>App Store</Link>
+                        <Link to='https://www.apple.com/app-store/' className='btn bg-[#f5f5f5] border-[#d2d2d2] shadow text-[#001931] font-bold text-xl h-14 w-50'><img src={appleStoreImg} alt="" />App Store</Link>
 
                     </div>
                 </div>
@@ -59,14 +61,20 @@ const Home = () => {
 
                     {
                         data.map(app =>
-                            <div key={app.id} className='flex flex-col rounded-xl w-[300px] gap-2 p-4 bg-white shadow'>
-                                <img className='w-full rounded-2xl' src={app.image} alt="" />
-                                <h3 className='text-center text-[#001931] font-medium text-xl'>{app.title}</h3>
-                                <div className='flex justify-between font-medium'>
-                                    <p className='text-[#00D390]'><i className="fa-solid fa-download mr-1"></i>{app.downloads}</p>
-                                    <p className='text-[#FF8811]'><i className="fa-solid fa-star mr-1"></i>{app.ratingAvg}</p>
+
+                            <Link key={app.id} to={`/appdetails/${app.id}`}>
+
+                                <div  className='flex flex-col rounded-xl w-[300px] gap-2 p-4 bg-white shadow'>
+                                    <img className='w-full rounded-2xl' src={app.image} alt="" />
+                                    <h3 className='text-center text-[#001931] font-medium text-xl'>{app.title}</h3>
+                                    <div className='flex justify-between font-medium'>
+                                        <p className='text-[#00D390]'><i className="fa-solid fa-download mr-1"></i>{app.downloads}</p>
+                                        <p className='text-[#FF8811]'><i className="fa-solid fa-star mr-1"></i>{app.ratingAvg}</p>
+                                    </div>
                                 </div>
-                            </div>
+
+                            </Link>
+
                         )
                     }
 

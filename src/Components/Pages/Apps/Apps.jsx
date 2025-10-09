@@ -1,13 +1,16 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 
 const Apps = () => {
 
     const data = useLoaderData();
     console.log(data);
 
+
+
     return (
         <div className='bg-[#f5f5f5]'>
+            {/* 20 apps */}
             <div className='max-w-[1400px] mx-auto pb-12'>
                 <h1 className='text-center text-[#001931] text-5xl font-bold pt-12 mb-8'>Our All Applications</h1>
                 <p className='text-center text-[#627382] text-xl mb-8'>Explore All Apps on the Market developed by us. We code for Millions</p>
@@ -40,14 +43,20 @@ const Apps = () => {
 
                     {
                         data.map(app =>
-                            <div key={app.id} className='flex flex-col shadow rounded-xl w-[300px] gap-2 p-4 bg-white'>
-                                <img className='w-full rounded-2xl' src={app.image} alt="" />
-                                <h3 className='text-center text-[#001931] font-medium text-xl'>{app.title}</h3>
-                                <div className='flex justify-between font-medium'>
-                                    <p className='text-[#00D390]'><i className="fa-solid fa-download mr-1"></i>{app.downloads}</p>
-                                    <p className='text-[#FF8811]'><i className="fa-solid fa-star mr-1"></i>{app.ratingAvg}</p>
+
+                            <Link key={app.id} to={`/appdetails/${app.id}`}>
+
+                                <div  className='flex flex-col shadow rounded-xl w-[300px] gap-2 p-4 bg-white'>
+                                    <img className='w-full rounded-2xl' src={app.image} alt="" />
+                                    <h3 className='text-center text-[#001931] font-medium text-xl'>{app.title}</h3>
+                                    <div className='flex justify-between font-medium'>
+                                        <p className='text-[#00D390]'><i className="fa-solid fa-download mr-1"></i>{app.downloads}</p>
+                                        <p className='text-[#FF8811]'><i className="fa-solid fa-star mr-1"></i>{app.ratingAvg}</p>
+                                    </div>
                                 </div>
-                            </div>
+
+                            </Link>
+
                         )
                     }
 

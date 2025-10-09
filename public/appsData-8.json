@@ -6,30 +6,15 @@
     "id": 1,
     "description": "Hero Chat is an intelligent and secure messaging platform built for the next generation of communication. Stay connected with friends, family, and AI companions through instant messages, voice notes, and high-quality video calls. The app features real-time translation, smart suggestions, and message scheduling to make every conversation smoother and more meaningful. Whether chatting one-on-one or managing group discussions, Hero Chat ensures fast performance, minimal data usage, and top-tier privacy protection.",
     "size": 54,
-    "reviews": 12345,
+    "reviews": "12K",
     "ratingAvg": 4.6,
     "downloads": "10M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 320
-      },
-      {
-        "name": "2 star",
-        "count": 500
-      },
-      {
-        "name": "3 star",
-        "count": 1300
-      },
-      {
-        "name": "4 star",
-        "count": 2900
-      },
-      {
-        "name": "5 star",
-        "count": 9325
-      }
+      { "name": "5 star", "count": 9325 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 320 }
     ]
   },
   {
@@ -39,30 +24,15 @@
     "id": 2,
     "description": "Hero Music transforms the way you experience sound. Explore millions of tracks from global artists, curated playlists, and AI-generated mixes that match your vibe. The app offers high-quality audio streaming, offline downloads, and smart recommendations that learn your listening habits. With a clean and modern interface, sleep timers, lyrics display, and customizable equalizers, Hero Music is the ultimate app for music lovers who want both convenience and crystal-clear sound.",
     "size": 68,
-    "reviews": 8421,
+    "reviews": "8.4K",
     "ratingAvg": 4.3,
     "downloads": "7M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 420
-      },
-      {
-        "name": "2 star",
-        "count": 600
-      },
-      {
-        "name": "3 star",
-        "count": 1200
-      },
-      {
-        "name": "4 star",
-        "count": 2500
-      },
-      {
-        "name": "5 star",
-        "count": 4701
-      }
+      { "name": "5 star", "count": 4701 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "2 star", "count": 600 },
+      { "name": "1 star", "count": 420 }
     ]
   },
   {
@@ -72,30 +42,15 @@
     "id": 3,
     "description": "Hero Games is your personal gaming universe. Dive into a vast collection of action, puzzle, racing, and adventure games all in one place. Enjoy quick installs, secure downloads, and personalized recommendations based on your favorite genres. Compete in online tournaments, climb leaderboards, and unlock exclusive rewards for completing challenges. With powerful performance optimization and low-latency gameplay, Hero Games ensures smooth experiences for both casual and hardcore gamers.",
     "size": 92,
-    "reviews": 21500,
+    "reviews": "21.5K",
     "ratingAvg": 4.8,
     "downloads": "2.5M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 210
-      },
-      {
-        "name": "2 star",
-        "count": 380
-      },
-      {
-        "name": "3 star",
-        "count": 900
-      },
-      {
-        "name": "4 star",
-        "count": 3700
-      },
-      {
-        "name": "5 star",
-        "count": 16210
-      }
+      { "name": "5 star", "count": 16210 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "3 star", "count": 900 },
+      { "name": "2 star", "count": 380 },
+      { "name": "1 star", "count": 210 }
     ]
   },
   {
@@ -105,30 +60,15 @@
     "id": 4,
     "description": "Hero Browser is a lightning-fast and privacy-focused web browser designed for those who value both performance and security. It comes equipped with built-in ad blocking, tracker prevention, and customizable search modes. Browse smoothly even with multiple tabs, switch to dark mode for comfort, and use the private window feature to keep your data safe. Hero Browser’s AI-driven content suggestions and minimalist interface make it a perfect blend of power and simplicity.",
     "size": 45,
-    "reviews": 10234,
+    "reviews": "10.2K",
     "ratingAvg": 4.4,
     "downloads": "4.5M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 540
-      },
-      {
-        "name": "2 star",
-        "count": 720
-      },
-      {
-        "name": "3 star",
-        "count": 1800
-      },
-      {
-        "name": "4 star",
-        "count": 3300
-      },
-      {
-        "name": "5 star",
-        "count": 5874
-      }
+      { "name": "5 star", "count": 5874 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "2 star", "count": 720 },
+      { "name": "1 star", "count": 540 }
     ]
   },
   {
@@ -138,30 +78,15 @@
     "id": 5,
     "description": "Hero Store is the heart of the Hero.IO ecosystem — an advanced app marketplace that brings you thousands of verified apps in one trusted platform. Discover trending tools, games, and utilities from developers worldwide, with detailed insights and user reviews to guide your choices. Enjoy fast, secure downloads and automatic updates without any clutter or ads. Hero Store also includes personalized recommendations, category sorting, and an elegant interface for a next-level app discovery experience.",
     "size": 80,
-    "reviews": 15678,
+    "reviews": "15.7K",
     "ratingAvg": 4.7,
     "downloads": "9M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 320
-      },
-      {
-        "name": "2 star",
-        "count": 450
-      },
-      {
-        "name": "3 star",
-        "count": 1300
-      },
-      {
-        "name": "4 star",
-        "count": 3800
-      },
-      {
-        "name": "5 star",
-        "count": 11808
-      }
+      { "name": "5 star", "count": 11808 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "1 star", "count": 320 }
     ]
   },
   {
@@ -171,30 +96,15 @@
     "id": 6,
     "description": "Hero News keeps you informed and inspired with real-time coverage from trusted publishers and independent creators. Follow your favorite topics — from tech and finance to entertainment and sports — and get tailored updates delivered straight to your feed. With its clean layout, offline reading mode, and breaking news notifications, Hero News ensures you never miss what matters most. Built-in comment sections and AI summaries make staying updated more engaging than ever.",
     "size": 40,
-    "reviews": 6400,
+    "reviews": "6.4K",
     "ratingAvg": 4.2,
     "downloads": "601K",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 480
-      },
-      {
-        "name": "2 star",
-        "count": 670
-      },
-      {
-        "name": "3 star",
-        "count": 1200
-      },
-      {
-        "name": "4 star",
-        "count": 1900
-      },
-      {
-        "name": "5 star",
-        "count": 2150
-      }
+      { "name": "5 star", "count": 2150 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "2 star", "count": 670 },
+      { "name": "1 star", "count": 480 }
     ]
   },
   {
@@ -204,32 +114,18 @@
     "id": 7,
     "description": "Hero Fitness is your personal trainer and health coach in one app. It provides guided workout plans, step tracking, calorie monitoring, and real-time progress analytics. Designed for all fitness levels, Hero Fitness uses AI to adjust routines based on your goals and performance. Track your heart rate, set reminders, and sync with your smartwatch to stay motivated every day. Its gamified achievements and progress sharing features help you build consistency and celebrate milestones.",
     "size": 72,
-    "reviews": 9800,
+    "reviews": "9.8K",
     "ratingAvg": 4.5,
     "downloads": "109K",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 410
-      },
-      {
-        "name": "2 star",
-        "count": 550
-      },
-      {
-        "name": "3 star",
-        "count": 1000
-      },
-      {
-        "name": "4 star",
-        "count": 2700
-      },
-      {
-        "name": "5 star",
-        "count": 5140
-      }
+      { "name": "5 star", "count": 5140 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "2 star", "count": 550 },
+      { "name": "1 star", "count": 410 }
     ]
   },
+
   {
     "image": "/assets/demo-app (2).webp",
     "title": "Hero Gallery",
@@ -237,30 +133,15 @@
     "id": 8,
     "description": "Hero Gallery makes managing your photos effortless and enjoyable. Automatically organize your images with AI-powered tagging and face recognition. Edit photos using professional-grade filters, crop tools, and one-touch enhancements. With integrated cloud backup, you’ll never lose your memories again. Share directly to social media or create digital albums with a sleek, minimal interface. Hero Gallery combines beauty and intelligence to keep your photo collection safe, creative, and perfectly sorted.",
     "size": 64,
-    "reviews": 7200,
+    "reviews": "7.2K",
     "ratingAvg": 4.4,
     "downloads": "904K",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 390
-      },
-      {
-        "name": "2 star",
-        "count": 500
-      },
-      {
-        "name": "3 star",
-        "count": 950
-      },
-      {
-        "name": "4 star",
-        "count": 2600
-      },
-      {
-        "name": "5 star",
-        "count": 3760
-      }
+      { "name": "5 star", "count": 3760 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "3 star", "count": 950 },
+      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 390 }
     ]
   }
 ]
