@@ -1,4 +1,3 @@
-import React from 'react';
 import heroImg from "../../../../public/assets/hero.png"
 import { Link, useLoaderData } from 'react-router';
 import playStoreImg from '../../../../public/assets/play.png'
@@ -7,84 +6,89 @@ import appleStoreImg from '../../../../public/assets/apple.png'
 const Home = () => {
 
     const data = useLoaderData();
-    console.log(data)
+    // console.log(data)
 
     return (
-        <div className='bg-[#f5f5f5] pt-8'>
-            <div className='flex flex-col justify-center gap-10 max-w-[1200px] mx-auto'>
-                <div className='text-center flex flex-col gap-10'>
-                    <h1 className='text-7xl font-bold text-[#001931]'>We Build <br /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>
-                    <p className='text-[#627382] text-xl'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
-                    <div className='flex gap-5 justify-center'>
+        <div>
 
-                        <Link to='https://play.google.com' className='btn bg-[#f5f5f5] shadow text-[#001931] font-bold border-[#d2d2d2] text-xl h-14 w-50'><img src={playStoreImg} alt="" />Google Play</Link>
+            <div className='bg-[#f5f5f5] pt-5 md:pt-8'>
+                <div className='flex flex-col justify-center gap-10 max-w-[1200px] mx-auto'>
+                    <div className='text-center flex flex-col gap-10'>
+                        <h1 className='text-4xl md:text-7xl font-bold text-[#001931]'>We Build <br /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>
+                        <p className='text-[#627382] md:text-xl mx-5 md:mx-0'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                        <div className='flex gap-5 justify-center'>
 
-                        <Link to='https://www.apple.com/app-store/' className='btn bg-[#f5f5f5] border-[#d2d2d2] shadow text-[#001931] font-bold text-xl h-14 w-50'><img src={appleStoreImg} alt="" />App Store</Link>
+                            <Link to='https://play.google.com' className='btn bg-[#f5f5f5] shadow text-[#001931] font-bold border-[#d2d2d2] h-11 w-40 md:text-xl md:h-14 md:w-50'><img src={playStoreImg} alt="" />Google Play</Link>
 
-                    </div>
-                </div>
+                            <Link to='https://www.apple.com/app-store/' className='btn bg-[#f5f5f5] border-[#d2d2d2] shadow text-[#001931] font-bold md:text-xl md:h-14 md:w-50 h-11 w-40'><img src={appleStoreImg} alt="" />App Store</Link>
 
-                <img className='w-240 mx-auto' src={heroImg} alt="" />
-            </div>
-
-            <div className='text-center p-20 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white '>
-                <div className='max-w-[1600px] mx-auto'>
-                    <h1 className='mb-5 text-5xl font-bold'>Trusted by Millions, Built for You</h1>
-
-                    <div className='flex justify-around'>
-                        <div className='flex flex-col gap-3'>
-                            <p>Total Downloads</p>
-                            <h1 className='font-extrabold text-6xl'>29.6M</h1>
-                            <p>21% more than last month</p>
-                        </div>
-                        <div className='flex flex-col gap-3'>
-                            <p>Total Reviews</p>
-                            <h1 className='font-extrabold text-6xl'>906K</h1>
-                            <p>46% more than last month</p>
-                        </div>
-                        <div className='flex flex-col gap-3'>
-                            <p>Active Apps</p>
-                            <h1 className='font-extrabold text-6xl'>132+</h1>
-                            <p>31 more will Launch</p>
                         </div>
                     </div>
+
+                    <img className='w-240 mx-auto' src={heroImg} alt="" />
                 </div>
 
-            </div>
+                <div className='text-center p-10 md:p-20 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white '>
+                    <div className='md:max-w-[1600px] mx-auto'>
+                        <h1 className='mb-5 text-xl md:text-5xl font-bold'>Trusted by Millions, Built for You</h1>
 
-            {/* 8 Apps */}
-            <div className='max-w-[1400px] mx-auto'>
-                <h1 className='text-center text-[#001931] text-5xl font-bold mt-12 mb-8'>Trending Apps</h1>
-                <p className='text-center text-[#627382] text-xl mb-8'>Explore All Trending Apps on the Market developed by us</p>
+                        <div className='flex flex-col md:flex-row md:justify-around gap-10'>
+                            <div className='flex flex-col md:gap-3'>
+                                <p>Total Downloads</p>
+                                <h1 className='font-extrabold text-4xl md:text-6xl'>29.6M</h1>
+                                <p>21% more than last month</p>
+                            </div>
+                            <div className='flex flex-col md:gap-3'>
+                                <p>Total Reviews</p>
+                                <h1 className='font-extrabold text-4xl md:text-6xl'>906K</h1>
+                                <p>46% more than last month</p>
+                            </div>
+                            <div className='flex flex-col md:gap-3'>
+                                <p>Active Apps</p>
+                                <h1 className='font-extrabold text-4xl md:text-6xl'>132+</h1>
+                                <p>31 more will Launch</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div className='grid grid-cols-4 place-items-center gap-5'>
+                </div>
 
-                    {
-                        data.map(app =>
+                {/* 8 Apps */}
+                <div className='max-w-[1400px] mx-auto'>
+                    <h1 className='text-center text-[#001931] text-2xl md:text-5xl font-bold mt-10 md:mt-12 md:mb-8 mb-3'>Trending Apps</h1>
+                    <p className='text-center text-[#627382] md:text-xl mb-8'>Explore All Trending Apps on the Market developed by us</p>
 
-                            <Link key={app.id} to={`/appdetails/${app.id}`}>
+                    <div className='grid grid-cols-1 md:grid-cols-4 place-items-center gap-5'>
 
-                                <div  className='flex flex-col rounded-xl w-[300px] gap-2 p-4 bg-white shadow'>
-                                    <img className='w-full rounded-2xl' src={app.image} alt="" />
-                                    <h3 className='text-center text-[#001931] font-medium text-xl'>{app.title}</h3>
-                                    <div className='flex justify-between font-medium'>
-                                        <p className='text-[#00D390]'><i className="fa-solid fa-download mr-1"></i>{app.downloads}</p>
-                                        <p className='text-[#FF8811]'><i className="fa-solid fa-star mr-1"></i>{app.ratingAvg}</p>
+                        {
+                            data.map(app =>
+
+                                <Link key={app.id} to={`/appdetails/${app.id}`}>
+
+                                    <div className='flex flex-col rounded-xl w-[300px] gap-2 p-4 bg-white shadow'>
+                                        <img className='w-full rounded-2xl' src={app.image} alt="" />
+                                        <h3 className='text-center text-[#001931] font-medium text-xl'>{app.title}</h3>
+                                        <div className='flex justify-between font-medium'>
+                                            <p className='text-[#00D390]'><i className="fa-solid fa-download mr-1"></i>{app.downloads}</p>
+                                            <p className='text-[#FF8811]'><i className="fa-solid fa-star mr-1"></i>{app.ratingAvg}</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </Link>
+                                </Link>
 
-                        )
-                    }
+                            )
+                        }
 
+                    </div>
+
+                </div>
+
+                <div className='text-center mt-8 pb-12'>
+                    <Link to='/apps' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0 w-35 h-11">Show All</Link>
                 </div>
 
             </div>
 
-            <div className='text-center mt-8 pb-12'>
-                <Link to='/apps' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0 w-35 h-11">Show All</Link>
-            </div>
 
         </div>
     );

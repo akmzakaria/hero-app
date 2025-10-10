@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getStoredApp = () => {
 
     const storedAppSTR = localStorage.getItem('appList')
@@ -15,14 +17,16 @@ const addToStoredApp = (id) => {
 
     const storedAppData = getStoredApp();
 
-    if(storedAppData.includes(id)){
-        alert('id already exist')
-    }else{
+    if (!storedAppData.includes(id)) {
+
+        toast('Installed')
         storedAppData.push(id)
         const data = JSON.stringify(storedAppData);
         localStorage.setItem('appList', data)
+
     }
-    
+
+
 }
 
-export {addToStoredApp, getStoredApp};
+export { addToStoredApp, getStoredApp };

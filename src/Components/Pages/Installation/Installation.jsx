@@ -35,7 +35,7 @@ const Installation = () => {
             const sortedByLow_High = [...appList].sort((a, b) => (a.downloads1) - (b.downloads1));
             setAppList(sortedByLow_High)
         }
-        console.log(appList)
+        // console.log(appList)
 
     }
 
@@ -43,11 +43,11 @@ const Installation = () => {
     return (
         <div className='bg-[#f5f5f5] pt-8'>
             <div className='max-w-[1400px] mx-auto'>
-                <h1 className='text-center text-[#001931] text-5xl font-bold mb-8'>Your Installed Apps</h1>
-                <p className='text-center text-[#627382] text-xl mb-8'>Explore All Trending Apps on the Market developed by us</p>
+                <h1 className='text-center text-[#001931] text-2xl md:text-5xl font-bold mb-5 md:mb-8'>Your Installed Apps</h1>
+                <p className='text-center text-[#627382] md:text-xl mb-5 md:mb-8'>Explore All Trending Apps on the Market developed by us</p>
 
-                <div className='flex justify-between mb-5'>
-                    <p className='font-semibold text-2xl'>({appList.length}) Apps Found</p>
+                <div className='flex justify-between mb-2 md:mb-5'>
+                    <p className='font-semibold md:text-2xl'>({appList.length}) Apps Found</p>
 
 
                     {/* sort */}
@@ -68,15 +68,15 @@ const Installation = () => {
                         appList.length === 0 ?
 
                             <div className='flex flex-col justify-center h-50 items-center gap-5 text-gray-600'>
-                                <i className="fa-regular fa-face-frown text-8xl"></i>
-                                <h1 className='text-3xl'>You haven't installed any apps yet!</h1>
+                                <i className="fa-regular fa-face-frown text-6xl md:text-8xl"></i>
+                                <h1 className='md:text-3xl'>You haven't installed any apps yet!</h1>
                             </div> :
 
                             appList.map(app =>
                                 <div key={app.id} className='flex justify-between bg-white items-center rounded-lg py-3 px-3 shadow'>
 
                                     <div className='flex gap-5 items-center '>
-                                        <img className='w-20' src={app.image} alt="" />
+                                        <img className='w-20 rounded-lg' src={app.image} alt="" />
                                         <div>
                                             <h1 className='font-medium text-xl mb-2'>{app.title}</h1>
                                             <div className='flex gap-5'>
@@ -93,9 +93,6 @@ const Installation = () => {
                             )
 
                     }
-
-
-
 
                 </div>
 
