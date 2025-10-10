@@ -84,7 +84,7 @@ const Home = () => {
                 </div>
 
                 <div className='text-center mt-8 pb-12'>
-                    <Link to='/apps' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0 h-8 md:w-35 rounded-xs md:rounded-sm md:h-11">Show All</Link>
+                    <Link to='/apps' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0 w-30 h-8 md:w-35 md:h-11">Show All</Link>
                 </div>
 
             </div>
