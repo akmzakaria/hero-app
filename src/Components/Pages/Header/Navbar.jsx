@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
 
-                <a href='https://github.com/AKMZakaria' className="btn h-8 w-25 md:h-10 md:w-33 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0"><i className="fa-brands fa-github  md:text-lg"></i>Contribute</a>
+                <a href='https://github.com/AKMZakaria' className="btn h-8 w-30 md:h-10 md:w-33 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0"><i className="fa-brands fa-github  md:text-lg"></i>Contribute</a>
 
             </div>
         </div>
