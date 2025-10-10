@@ -47,7 +47,7 @@ const Installation = () => {
                 <p className='text-center text-[#627382] md:text-xl mx-5 md:mx-0 mb-10 md:mb-8'>Explore All Trending Apps on the Market developed by us</p>
 
                 <div className='flex justify-between mb-2 md:mb-5'>
-                    <p className='font-semibold text-sm md:text-2xl'>({appList.length}) Apps Found</p>
+                    <p className='font-semibold md:text-2xl'>({appList.length}) Apps Found</p>
 
 
                     {/* sort */}
