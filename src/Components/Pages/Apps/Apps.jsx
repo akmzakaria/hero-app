@@ -48,7 +48,7 @@ const Apps = () => {
 
                     {/* search bar */}
                     <div className=''>
-                        <label className="input bg-white border border-[#d2d2d2] h-8 w-30 md:w-70 md:h-10">
+                        <label className="input bg-white border border-[#d2d2d2] h-8 w-35 md:w-70 md:h-10">
                             <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <g
                                     strokeLinejoin="round"
