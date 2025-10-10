@@ -11,7 +11,7 @@ const Navbar = () => {
 
             <NavLink to='/apps'><li className='m-2 hover:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:bg-clip-text hover:text-transparent hover:underline decoration-[#9F62F2] font-bold'>Apps</li></NavLink>
 
-            <NavLink to='/installation'><li className='m-2 hover:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:bg-clip-text hover:text-transparent hover:underline decoration-[#9F62F2] font-bold'>Installation</li></NavLink>
+            <NavLink to='/installation'><li className='m-2 hover:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:bg-clip-text hover:text-transparent hover:underline decoration-[#9F62F2] font-bold'>My Installation</li></NavLink>
         </nav>
 
     </>
@@ -31,8 +31,8 @@ const Navbar = () => {
                 </div>
 
                 <Link className='flex items-center gap-1' to={'/'}>
-                    <img className='h-10' src={logoImg} alt="" />
-                    <p className="font-bold text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</p>
+                    <img className='h-5 md:h-10' src={logoImg} alt="" />
+                    <p className="font-bold md:text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</p>
                 </Link>
 
             </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
 
-                <a href='https://github.com/AKMZakaria' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0"><i className="fa-brands fa-github text-lg"></i>Contribute</a>
+                <a href='https://github.com/AKMZakaria' className="btn h-8 w-25 md:h-10 md:w-33 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0"><i className="fa-brands fa-github  md:text-lg"></i>Contribute</a>
 
             </div>
         </div>

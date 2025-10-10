@@ -3,6 +3,7 @@ import Navbar from '../Pages/Header/Navbar';
 import { Outlet, useNavigation } from 'react-router';
 import Footer from '../Pages/Footer/Footer';
 import { ToastContainer } from 'react-toastify';
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 
 const Root = () => {
@@ -27,6 +28,7 @@ const Root = () => {
 
     return (
         <div>
+            <ScrollToTop></ScrollToTop>
             <Navbar></Navbar>
 
             {showLoader ? 
