@@ -62,7 +62,7 @@ const AppDetails = () => {
                     </div>
                     <div className='text-center'>
 
-                        <button disabled={installed} onClick={() => handleInstall(singleApp.id)} className={`  border-0 md:text-xl font-semibold w-42 h-10 md:w-60 md:h-11 ${installed ? 'bg-[#67ceae] shadow-none rounded-xs w-42 h-10 text-white' : 'bg-[#00d390] btn'}`}>{installed ? "Installed" : `Install Now (${singleApp.size} MB)`}</button>
+                        <button disabled={installed} onClick={() => handleInstall(singleApp.id)} className={`  border-0 md:text-xl font-semibold w-42 h-10 md:w-60 md:h-11 ${installed ? 'bg-[#67ceae] shadow-none rounded-sm w-42 h-10 text-white' : 'bg-[#00d390] btn'}`}>{installed ? "Installed" : `Install Now (${singleApp.size} MB)`}</button>
 
                     </div>
                 </div>
