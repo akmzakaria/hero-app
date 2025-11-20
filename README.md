@@ -47,12 +47,6 @@ Recharts
 
 React Toastify
 
-Marquee (react-fast-marquee)
-
-Backend / Services
-
-Firebase (Authentication & Hosting)
-
 # 🔧 Installation & Setup
 ### 1. Clone the repository
 git clone https://github.com/akmzakaria/hero-app.git
@@ -60,15 +54,7 @@ git clone https://github.com/akmzakaria/hero-app.git
 ### 2. Install dependencies
 npm install
 
-### 3. Setup Firebase
-
-Create a Firebase project → enable Authentication → Web App → copy config.
-
-Create:
-
-src/firebase/firebase.config.js
-
-### 4. Start development server
+### 3. Start development server
 npm run dev
 
 
@@ -88,24 +74,6 @@ Featured apps
 
 Trending section
 
-Marquee breaking news
-
-### 📌 App Categories
-
-Users can explore apps by:
-
-Games
-
-Tools
-
-Productivity
-
-Social
-
-Finance
-
-And more…
-
 ### 📌 App Details Page
 
 Shows:
@@ -122,17 +90,8 @@ Recharts analytics
 
 Click “Install” → shows notification using React Toastify.
 
-### 📌 Authentication
-
-Login
-
-Register
-
-Google Sign-in
-
-Protected Routes
-
 # 🔮 Future Improvements
+Authentication
 
 App reviews & comments
 
@@ -156,5 +115,3 @@ Open an issue first to discuss major changes.
 AKM Zakaria
 Full Stack Developer
 GitHub: https://github.com/yourusername
-
-Portfolio (optional)
