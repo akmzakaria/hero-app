@@ -114,4 +114,3 @@ Open an issue first to discuss major changes.
 
 AKM Zakaria
 Full Stack Developer
-GitHub: https://github.com/yourusername
