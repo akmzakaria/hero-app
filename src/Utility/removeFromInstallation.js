@@ -1,24 +1,16 @@
-import { toast } from "react-toastify";
-
 const getStoredApp = () => {
-    const storedAppSTR = localStorage.getItem('appList');
-    if (storedAppSTR) {
-        return JSON.parse(storedAppSTR);
-    } else {
-        return [];
-    }
-};
+  const storedAppSTR = localStorage.getItem('appList')
+  if (storedAppSTR) {
+    return JSON.parse(storedAppSTR)
+  } else {
+    return []
+  }
+}
 
 const removeFromStoredApp = (id) => {
+  const storedAppData = getStoredApp()
+  const updatedAppList = storedAppData.filter((appId) => appId !== id)
+  localStorage.setItem('appList', JSON.stringify(updatedAppList))
+}
 
-    toast.warn('App Uninstalled!!');
-
-    const storedAppData = getStoredApp();
-
-    const updatedAppList = storedAppData.filter(appId => appId !== id);
-
-    localStorage.setItem('appList', JSON.stringify(updatedAppList));
-
-};
-
-export { removeFromStoredApp, getStoredApp };
+export { removeFromStoredApp, getStoredApp }

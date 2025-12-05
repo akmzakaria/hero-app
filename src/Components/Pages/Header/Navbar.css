@@ -1,5 +1,80 @@
-nav a.active {
-    text-decoration: underline;
-    text-decoration-color: #9F62F2;
-    color: #9F62F2;
+a.active {
+  background: linear-gradient(90deg, #632ee3, #9f62f2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+}
+
+a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #632ee3, #9f62f2);
+}
+
+/* Navbar scroll effect */
+.navbar-scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+}
+
+/* Logo animation */
+.logo-container {
+  transition: transform 0.3s ease;
+}
+
+.logo-container:hover {
+  transform: scale(1.05);
+}
+
+/* Nav link animations */
+.menu a {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.menu a:not(.active)::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #632ee3, #9f62f2);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.menu a:not(.active):hover::before {
+  width: 100%;
+}
+
+/* Dropdown animation */
+.dropdown-content {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
