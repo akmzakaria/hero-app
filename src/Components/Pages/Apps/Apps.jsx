@@ -92,7 +92,7 @@ const Apps = () => {
 
         {isLoading ? (
           <div className="flex h-[40vh] bg-[#f5f5f5] justify-center items-center">
-            <span className="loading loading-dots w-20 md:w-32 text-[#632EE3]"></span>
+            <span className="loading loading-dots w-20 md:w-32 "></span>
           </div>
         ) : (
           <div>

@@ -92,7 +92,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a
             href="https://github.com/akmzakaria"
-            className="btn h-9 w-30 md:h-10 md:w-33 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0 btn-gradient text-white hover:shadow-lg"
+            className="btn h-9 w-30 md:h-10 md:w-33 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-0 btn-gradient hover:shadow-lg"
           >
             <i className="fa-brands fa-github md:text-lg"></i>Contribute
           </a>
